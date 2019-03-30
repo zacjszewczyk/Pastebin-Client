@@ -112,9 +112,11 @@ class Pastes:
 
 if (__name__ == "__main__"):
     # Get Pastes data structure
-    dev_key = ""
-    username = ""
-    password = ""
+    fd = open("settings.txt", "r")
+    dev_key = fd.readline().strip().split("=")[1]
+    username = fd.readline().strip().split("=")[1]
+    password = fd.readline().strip().split("=")[1]
+    fd.close()
     pastes = Pastes(dev_key,username,password)
 
     print "Paste Information"
