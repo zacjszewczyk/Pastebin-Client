@@ -7,10 +7,10 @@ This is less of a project, and more of a quick app I whipped up one afternoon to
 
 In addition to the project files here, you will need to create one additional file to make this script work. Once you have downloaded this code, create a plain text "settings.txt" in the same directory as "pastebin.py". Format it as follows:
 
-<pre>
+```
 key=test_key
 username=test_username
 password=test_password
-</pre>
+```
 
 Replace "test_key" with your Pastebin developer key, "test_username" with your Pastebin username, and "test_password" with your Pastebin password. Do not incldue any spaces, quotation marks, or any other special characters, or any lines except those three. Now run "pastebin.py".
