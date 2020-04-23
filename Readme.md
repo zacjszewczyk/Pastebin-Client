@@ -14,3 +14,7 @@ password=test_password
 ```
 
 Replace "test_key" with your Pastebin developer key, "test_username" with your Pastebin username, and "test_password" with your Pastebin password. Do not incldue any spaces, quotation marks, or any other special characters, or any lines except those three. Now run "pastebin.py".
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Read more about the license, and my other disclaimers, [at my website](https://zacs.site/disclaimers.html).
